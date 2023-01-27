@@ -79,7 +79,7 @@ a.menu:hover{
     border-radius: 10px;
 }
 
-#caixaassuntos0{
+.caixaassuntos0{
     border: solid;
     padding: 10px;
     width: 300px;
@@ -92,7 +92,7 @@ a.menu:hover{
     font-size: 40px;
 }
 
-#tituloassunto0{
+.tituloassunto0{
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 40px;
 }
@@ -104,7 +104,7 @@ a.menu:hover{
     font-family: 'Courier New', Courier, monospace  ;
 }
 
-#conteudoassunto0{
+.conteudoassunto0{
     margin-top: 90px;
     font-size: 30px;
     font-weight: bold;
@@ -274,4 +274,67 @@ footer{
     font-size: 30px;
     align-items: center;
     padding: 20px;
+}
+
+/*RESPONSIVIDADE*/
+
+@media only screen and (max-width:1530px){
+
+    body{
+        background-image: linear-gradient(180deg, #FF5757 5%, #E8E0E0 25%);
+        margin-top: 75px;
+    }
+
+    /*CABEÇALHO*/
+
+    header{
+        display: flex;
+        background-color: black;
+        position: fixed;
+        width: 100%;
+        top: 0;
+    }
+    #parte_cima{
+        display: flex;
+        justify-content: space-around;
+        color: white;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 18px;
+        align-items: center;
+        padding: 20px;
+    }
+
+    /*PARTE DE CIMA*/
+
+    #conteiner1{
+        height: 280vh;
+    }
+
+    #assuntos{
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        margin-top: 80px;
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+    
+    .caixaassuntos{
+        border: solid;
+        padding: 10px;
+        width: 300px;
+        height: 450px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+
+    .caixaassuntos0{
+        border: solid;
+        padding: 10px;
+        width: 300px;
+        height: 450px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+
 }
