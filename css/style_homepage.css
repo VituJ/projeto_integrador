@@ -63,6 +63,7 @@ footer{
 section{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 8%;
 }
 
 #esquerda{
