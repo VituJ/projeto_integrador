@@ -583,12 +583,16 @@ footer{
 
     @media only screen and (max-width:480px){
 
+        #conteiner1{
+            margin-left: 2%;
+        }
+
         #parte_cima{
             display: flex;
             justify-content: space-around;
             color: white;
             font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-            font-size: 14px;
+            font-size: 13px;
             align-items: center;
             padding: 20px;
         }
@@ -597,15 +601,16 @@ footer{
             text-align: center;
             margin-top: 150px;
             font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-            font-size: 50px;
+            font-size: 48px;
         }
 
         /*PARTE DO MEIO*/
 
         #outraparte{
             background-color: #E8E0E0 ;
-            margin-bottom: 23%;
+            margin-bottom: 30%;
             margin-top: 40%;
+            margin-left: 2%;
         }
 
         .conteinertitulo{
@@ -655,7 +660,7 @@ footer{
             justify-content: space-between;
             width: 100%;
             font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-            font-size: 18px;
+            font-size: 16px;
             align-items: center;
             padding: 20px;
         }
