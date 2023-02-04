@@ -601,7 +601,7 @@ footer{
             text-align: center;
             margin-top: 150px;
             font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-            font-size: 48px;
+            font-size: 40px;
         }
 
         /*PARTE DO MEIO*/
@@ -614,7 +614,7 @@ footer{
         }
 
         .conteinertitulo{
-            font-size: 55px;
+            font-size: 50px;
             font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
         }
         
@@ -623,6 +623,17 @@ footer{
             font-size: 20px;
             font-family: Verdana, Geneva, Tahoma, sans-serif; 
             text-align: justify;
+        }
+
+        .caixabotao{
+            background-color: black;
+            color: white;
+            margin-top: 65px;
+            font-size: 30px;
+            width: 200px;
+            border-radius: 10px;
+            padding: 10px;
+            margin-left: 40px;
         }
 
         .comentario{
