@@ -132,6 +132,17 @@ a.botaonav:hover{
     margin-left: 40px;
 }
 
+.caixabotao1{
+    background-color: black;
+    color: white;
+    margin-top: 25%;
+    font-size: 30px;
+    width: 200px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 40px;
+}
+
 
 
 /*PARTE DO MEIO*/
@@ -355,6 +366,17 @@ footer{
          margin-bottom: 20px;
      }
 
+     .caixabotao1{
+        background-color: black;
+        color: white;
+        margin-top: 25%;
+        font-size: 30px;
+        width: 200px;
+        border-radius: 10px;
+        padding: 10px;
+        margin-left: 40px;
+    }
+
      /*PARTE DO MEIO*/
 
      #outraparte{
@@ -438,8 +460,8 @@ footer{
      }
      
      #video{
-         width: 100%;
-         height: 100%;
+         width: 600px;
+         height: 300px;
      }
      
      #conteiner-slider{
