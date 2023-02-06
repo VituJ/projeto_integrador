@@ -244,13 +244,18 @@ section{
         #direita{
             max-width: 400px;
             margin-bottom: 25%;
-            margin-left: 20%;
+            margin-left: 7%;
             text-align: center;
         }
     
         #titulo{
             font-size: 70px;
             font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+
+        #imgmaquete{
+            max-width: 120%;
+            max-height: 120%;
         }
         
         #parte_baixo{
