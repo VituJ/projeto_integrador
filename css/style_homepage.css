@@ -105,6 +105,11 @@ section{
     font-size: 30px;
 }
 
+#logo-if{
+    height: 50px;
+    width: 50px;
+}
+
 @media only screen and (max-width:1165px){
 
     header{

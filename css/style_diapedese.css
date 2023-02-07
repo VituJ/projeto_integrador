@@ -89,6 +89,25 @@ a.botaonav:hover{
     border-radius: 10px;
 }
 
+
+.abaixo{
+    text-align: right;
+}
+
+.dentro{
+    align-items: end;
+}
+
+.imgseta{
+    width: 5%;
+    height: 5%;
+}
+
+#logo-if{
+    height: 50px;
+    width: 50px;
+}
+
 .caixaassuntos0{
     border: solid;
     padding: 10px;
