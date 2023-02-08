@@ -578,8 +578,38 @@ img {
     margin-left: 0px;
 }
 
+@media only screen and (max-width:1199px){
+    #video{
+        width: 400px;
+        height: 200px;
+    }
+}
 
+@media only screen and (max-width:991px){
+    #video{
+        width: 350px;
+        height: 220px;
+    }
+}
 
+@media only screen and (max-width:767px){
+    #video{
+        width: 510px;
+        height: 400px;
+    }
+}
 
+@media only screen and (max-width:510px){
+    #video{
+        width: 455px;
+        height: 300px;
+    }
+}
 
+@media only screen and (max-width:480px){
+    #video{
+        width: 330px;
+        height: 300px;
+    }
+}
 
