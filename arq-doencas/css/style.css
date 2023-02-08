@@ -138,13 +138,16 @@ h6 {
 }
 
 #header .logo {
-  font-size: 32px;
+  font-size: 10px;
   margin: 0;
   padding: 0;
   line-height: 1;
   font-weight: 400;
-  letter-spacing: 2px;
+  letter-spacing: -1px;
   text-transform: uppercase;
+  @media (max-width: 700px) {
+   
+}
 }
 
 #header .logo a {
@@ -307,6 +310,18 @@ h6 {
   visibility: visible;
 }
 
+#video{
+  width: 600px;
+  height: 300px;
+}
+
+@media (max-width: 1400px) {
+  #video{
+    width: 500px;
+    height: 300px;
+  }
+}
+
 @media (max-width: 1366px) {
   .navbar .dropdown .dropdown ul {
     left: -90%;
@@ -314,6 +329,13 @@ h6 {
 
   .navbar .dropdown .dropdown:hover>ul {
     left: -100%;
+  }
+}
+
+@media (max-width: 1200px) {
+  #video{
+    width: 460px;
+    height: 300px;
   }
 }
 
@@ -484,6 +506,12 @@ h6 {
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
 
+#video{
+  width: 355px;
+  height: 300px;
+}
+
+
 @media (min-width: 1200px) {
   #hero {
     background-attachment: fixed;
@@ -528,6 +556,12 @@ h6 {
   #hero .hero-img img {
     width: 60%;
   }
+
+  #video{
+    width: 450px;
+    height: 300px;
+  }
+
 }
 
 @media (max-width: 575px) {
@@ -540,6 +574,13 @@ h6 {
 (max-height: 600px) {
   #hero {
     height: auto;
+  }
+}
+
+@media (max-width: 450px) {
+  #video{
+    width: 335px;
+    height: 300px;
   }
 }
 
@@ -1678,4 +1719,9 @@ section {
   background: rgba(255, 255, 255, 0.2);
   color: #fff;
   text-decoration: none;
+}
+.pindo{
+  margin:0;
+    padding:0;
+    display:inline;
 }
